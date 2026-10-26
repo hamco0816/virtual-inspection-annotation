@@ -1,0 +1,42 @@
+# Go 后端：运行数据和编译产物
+server/data/
+server/*.exe
+
+# React 管理端：依赖和构建产物
+admin-web/node_modules/
+admin-web/dist/
+admin-web/*.local
+
+# Unity 客户端：编辑器自动生成的目录和文件
+unity-client/[Ll]ibrary/
+unity-client/[Tt]emp/
+unity-client/[Ll]ogs/
+unity-client/[Oo]bj/
+unity-client/[Bb]uild/
+unity-client/[Bb]uilds/
+unity-client/[Uu]ser[Ss]ettings/
+unity-client/[Mm]emoryCaptures/
+unity-client/.vs/
+unity-client/*.csproj
+unity-client/*.sln
+unity-client/*.slnx
+
+# 演示视频（通过 GitHub Release 附件交付，不放进仓库）
+*.mp4
+*.mov
+*.mkv
+
+# 环境变量、IDE 和 AI 工具目录
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.claude/
+.codex/
+.playwright-cli/
+.impeccable/
+.DS_Store
+Thumbs.db
+~$*
+~WRL*.tmp
