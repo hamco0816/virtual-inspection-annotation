@@ -6,6 +6,14 @@ Unity 研发实操题（无 AR 设备备选版）。在 Unity 虚拟巡检现场
 Unity 进入虚拟现场 → 点击设备或场景表面放置标记 → 填写并上报 → Go 后端保存 → React 查看并修改状态
 ```
 
+## 演示视频
+
+视频放在 GitHub Release 附件中：[v1.0 演示视频](https://github.com/hamco0816/virtual-inspection-annotation/releases/tag/v1.0)
+
+| 视频 | 内容 |
+|---|---|
+| [demo-unity-report.mp4](https://github.com/hamco0816/virtual-inspection-annotation/releases/download/v1.0/demo-unity-report.mp4) | Unity 中移动观察虚拟现场、点击设备放置标记、填写并提交问题，React 刷新后看到该问题 |
+
 ## 目录结构
 
 | 目录 | 说明 |
